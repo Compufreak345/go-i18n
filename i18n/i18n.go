@@ -56,9 +56,9 @@
 package i18n
 
 import (
-	"github.com/nicksnyder/go-i18n/i18n/bundle"
-	"github.com/nicksnyder/go-i18n/i18n/language"
-	"github.com/nicksnyder/go-i18n/i18n/translation"
+	"github.com/Compufreak345/go-i18n/i18n/bundle"
+	"github.com/Compufreak345/go-i18n/i18n/language"
+	"github.com/Compufreak345/go-i18n/i18n/translation"
 )
 
 // TranslateFunc returns the translation of the string identified by translationID.
@@ -149,4 +149,8 @@ func MustTfuncAndLanguage(languageSource string, languageSources ...string) (Tra
 func TfuncAndLanguage(languageSource string, languageSources ...string) (TranslateFunc, *language.Language, error) {
 	tfunc, lang, err := defaultBundle.TfuncAndLanguage(languageSource, languageSources...)
 	return TranslateFunc(tfunc), lang, err
+}
+
+func GetBundle() *bundle.Bundle {
+	return defaultBundle
 }

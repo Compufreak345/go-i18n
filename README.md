@@ -3,17 +3,17 @@ go-i18n [![Build Status](https://secure.travis-ci.org/nicksnyder/go-i18n.png?bra
 
 go-i18n is a Go [package](#i18n-package) and a [command](#goi18n-command) that helps you translate Go programs into multiple languages.
 * Supports [pluralized strings](http://cldr.unicode.org/index/cldr-spec/plural-rules) for all 200+ languages in the [Unicode Common Locale Data Repository (CLDR)](http://www.unicode.org/cldr/charts/28/supplemental/language_plural_rules.html).
-  *  Code and tests are [automatically generated](https://github.com/nicksnyder/go-i18n/tree/master/i18n/language/codegen) from [CLDR data](http://cldr.unicode.org/index/downloads)
+  *  Code and tests are [automatically generated](https://github.com/Compufreak345/go-i18n/tree/master/i18n/language/codegen) from [CLDR data](http://cldr.unicode.org/index/downloads)
 * Supports strings with named variables using [text/template](http://golang.org/pkg/text/template/) syntax.
 * Translation files are simple JSON or YAML.
-* [Documented](http://godoc.org/github.com/nicksnyder/go-i18n) and [tested](https://travis-ci.org/nicksnyder/go-i18n)!
+* [Documented](http://godoc.org/github.com/Compufreak345/go-i18n) and [tested](https://travis-ci.org/nicksnyder/go-i18n)!
 
-Package i18n [![GoDoc](http://godoc.org/github.com/nicksnyder/go-i18n?status.png)](http://godoc.org/github.com/nicksnyder/go-i18n/i18n)
+Package i18n [![GoDoc](http://godoc.org/github.com/Compufreak345/go-i18n?status.png)](http://godoc.org/github.com/Compufreak345/go-i18n/i18n)
 ------------
 
 The i18n package provides runtime APIs for fetching translated strings.
 
-Command goi18n [![GoDoc](http://godoc.org/github.com/nicksnyder/go-i18n?status.png)](http://godoc.org/github.com/nicksnyder/go-i18n/goi18n)
+Command goi18n [![GoDoc](http://godoc.org/github.com/Compufreak345/go-i18n?status.png)](http://godoc.org/github.com/Compufreak345/go-i18n/goi18n)
 --------------
 
 The goi18n command provides functionality for managing the translation process.
@@ -23,7 +23,7 @@ Installation
 
 Make sure you have [setup GOPATH](http://golang.org/doc/code.html#GOPATH).
 
-    go get -u github.com/nicksnyder/go-i18n/goi18n
+    go get -u github.com/Compufreak345/go-i18n/goi18n
     goi18n -help
 
 Workflow
